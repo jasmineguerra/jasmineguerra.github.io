@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random - Jas' Weird Stuff</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Off Canvas menu-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="quotes.html">Quotes</a>
+      <a href="funnysituations.html">Funny Situations</a>
+      <a href="bucketlist.html">Bucket List</a>
+      <a class="selected">Random</a>
+      <a href="thoughts.html">Xitlaly's Random Thoughts</a>
+    </div>
+
+    <div id="main">
+      <span style="font-size:30px;color:white;cursor:pointer;" onclick="openNav()">&#9776; Other Tabs</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+      </script>
+      <header>
+        <center>
+          <p>
+            <sup>We on</sup>Something Different</p>
+        </center>
+      </header>
+      <center><h1> Random </h1></center>
+      <br>
+      <center><h1>HAPPY HALLOWEEN, IDIOTS</h1></center>
+      <p align="center"><img id="skellyTwo" width="340" height="260" img src="media/skelly-two.gif"></p>
+      <br>
+      <p> I don't know what I'm doing </p>
+      <p> make sure you turn number 1 into letter 1 </p>
+      <br>
+      <!--Animation-->
+      <center>
+        <center><section id="wdwSection"></section></center>
+        <center><img id="imgwdw" src="media/wdw.JPG" alt="PINGUS" /></center>
+        <br>
+        <center><p>Here's a picture of wdw :)</p></center>
+        <center><p>Hover over the picture!</p></center>
+      </center>
+      <br>
+      <!--Crabby-->
+      <p>Yes, I AM crabby. And you wanna know why? Because I have crabs. That's right. I thought it would be all fun a and games to go to Mexico and have sex with a hooker named "los cangrejos." It turns out in spanish that means "the crabs." So the next time you think to yourself, "hey! I'll have sex with a woman whose name, in that language, means "the crabs," maybe you'll open up your traveler's dictionary.
+      <p>But hey,</p>
+      <p>Now you know. </p>
+      <br>
+      <!--Pretzel-->
+      <p>Pretzels. What are they? Twirly, twirly birds that you grab with your hands and your wrap them around. Where did they come from? Where did they go? Back in 1987, a young man named Jordan B. Prietzen walked into a kitchen and said "Hey, I'd like to make myself a little bit of a snack!" So he grabbed some flour, he grabbed some yeast. He grabbed some salt, maybe a little bit of pepper, and he went to work. Pulled up his sleeves and he washed his hands, as you always do before cooking a great meal. And he splashed them into a bowl, mixing vigorously until.... out of the oven came something brand new. Something his eyes had never seen before. Something that would take the 90's by storm. The Pretzel has been made.</p>
+      <br>
+      <p>I'm gonna commit apoptosis.</p>
+      <p>IM GOING TO COMMIT DELETE MY MINECRAFT ACCOUNT</p>
+      <br>
+      <!--Button to top-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+      <script>
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 1200|| document.documentElement.scrollTop > 1200) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the documentw
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      </script>
+      <center><p>ANYWAY here is a video that took way too long to code of Miss Devon (video may not work if you are on mobile)</p></center>
+
+      <!--video-->
+      <center>
+        <video width="340" height="260" autoplay loop muted>
+          <source src="media/lit-devon.mp4" type="video/mp4">
+        </video></center>
+      <center><p><strong>Stream <a id="lit"href="https://www.youtube.com/watch?v=quCfXrbqF0o&t=0s" target="_blank">Lost in Translation</a></strong></p></center>
+    </div>
+  </body>
+</html>

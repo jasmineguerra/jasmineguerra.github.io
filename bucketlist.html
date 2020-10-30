@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bucket List - Jas' Weird Stuff </title>
+    <!-- Links -->
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Off canvas menu-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="quotes.html">Quotes</a>
+      <a href="funnysituations.html">Funny Situations</a>
+      <a class="selected">Bucket List</a>
+      <a href="random.html">Random</a>
+      <a href="thoughts.html">Xitlaly's Random Thoughts</a>
+    </div>
+    <div id="main">
+      <span style="font-size:30px;color:white;cursor:pointer;" onclick="openNav()">&#9776; Other Tabs</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+      </script>
+      <h1><center>Bucket List</center></h1>
+
+      <!--Jas' list-->
+      <h2>Jas' List</h2>
+      <strong>
+        <ul style="list-style-type:circle;">
+          <li>Go to New York on new years</li>
+          <li>Visit London</li>
+          <li>Visit New Zealand</li>
+          <li>Visit Paris</li>
+          <li>Foster animals</li>
+          <li>Go to Disney</li>
+          <li>Visit the Musuem of Dream Space in LA</li>
+          <li>Go out driving wherever at 2 AM with friends to get milkshakes and scream song lyrics at the top of our lungs</li>
+          <li>Attend a pride parade
+          <li>That sleepover we have at 30 years old</li>
+          <li>Visit a body museum</li>
+        </ul>
+      </strong>
+    </div>
+  </body>
+</html>
