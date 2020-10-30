@@ -258,3 +258,8 @@ video:-webkit-media-controls-fullscreen-button
 {
         display: none !important;
 }
+#Ehint:hover {
+  cursor: default;
+  text-decoration: underline;
+  color: white;
+}
