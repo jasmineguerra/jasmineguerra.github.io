@@ -1,6 +1,6 @@
 body {
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(72,36,4,1) 50%, rgba(182,91,2,1) 75%, rgba(255,128,0,1) 100%);
+  background: rgb(248,100,255);
+background: linear-gradient(90deg, rgba(248,100,255,1) 0%, rgba(92,2,182,1) 50%, rgba(58,75,255,1) 100%);
 }
 /* Fonts */
 p {
@@ -11,9 +11,9 @@ p {
   margin-right: 40px;
 }
 h1 {
-  font-family: Spider Webs; 
+  font-family: Milky Nice; 
   font-size: 50px;
-  font-weight: 2;
+  font-weight: 1;
   letter-spacing: 3px;
   color: white;
   font-weight: 2;
@@ -24,7 +24,7 @@ li {
   color: white;
 }
 h2 {
-  font-family: Frightmare; 
+  font-family: Twinkle Dream; 
   font-size: 35px;
   font-weight: 2;
   letter-spacing: 3px;
@@ -48,12 +48,12 @@ sub {
   color: white;
 }
 a {
-  font-family: Frightmare;
+  font-family: Shaeila;
   font-weight: 2;
   letter-spacing: 3px;
 }
 span {
-  font-family: Frightmare;
+  font-family: Shaeila;
   font-weight: 2;
   letter-spacing: 3px;
 }
@@ -74,6 +74,22 @@ span {
   font-family: "Spider Webs";
   src: url(webfonts/Pumpkin\ Web\ display.otf);
 }
+@font-face {
+  font-family: "Twinkle Dream";
+  src: url(webfonts/Twinkle\ Dream.ttf);
+}
+@font-face {
+  font-family: "Milky Nice";
+  src: url(webfonts/MilkyNice.ttf);
+}
+@font-face {
+  font-family: "Spongebob";
+  src: url(webfonts/Spongeboy\ Me\ Bob.ttf);
+}
+@font-face {
+    font-family: "Shaeila";
+    src: url(webfonts/Shaeila\ Maker.ttf);
+  }
 /* Lost in translation link*/
 #lit {
   font-family: Kalam;
@@ -145,7 +161,7 @@ img.imgwdw:hover {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #bf6900; /* Set a background color */
+  background-color: #c96793; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -165,7 +181,7 @@ img.imgwdw:hover {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0;
-  background-color: #330a42;
+  background-color: #c96793;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -173,7 +189,7 @@ img.imgwdw:hover {
   padding: 10px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #a66217;
+  color: white;
   display: block;
 }
 .quotenav a:hover {
@@ -197,7 +213,7 @@ img.imgwdw:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111111;
+  background-color:#b34d7b;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -207,13 +223,13 @@ img.imgwdw:hover {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #c97c28;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #6b3280;
+  color: #101010;
 }
 .sidenav a.selected {
   color: #454545;
@@ -262,4 +278,10 @@ video:-webkit-media-controls-fullscreen-button
   cursor: default;
   text-decoration: underline;
   color: white;
+}
+
+/*Hoverable quotes*/
+#proud:hover {
+  background: none;
+  cursor: pointer;
 }
