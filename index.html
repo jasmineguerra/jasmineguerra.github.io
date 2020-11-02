@@ -36,16 +36,42 @@
 
         <!--Main-->
         <h1><center>Jas' Weird Stuff :> </center></h1>
-        <p>Welcome to my mind. My thoughts, my dumbass friends, my shitposting, and my own roller coaster of the weird part of my life</p>
         <!--video-->
-        <p align="right"><video id="devon" width="380" height="380" style="float:right; margin:0px 80px" autoplay loop muted>
-          <source src="media/dev_fancam.mp4" type="video/mp4"></video></p>
+        <p align="right"><video id="devon" width="500" height="480" style="float:right; margin:0px 80px" autoplay loop muted>
+          <source src="media/unusannus.mp4" type="video/mp4"></video></p>
 
-        <p>My brain is SUPER WEIRD so don't be surprised on what I put on here.</p>
-        <p>Let's have fun with this thing we call life c:</p>
+        <p>So we are unfortunatley approaching the end. Memento Mori, my friends.</p>
         <p>SHAM WOW?</p>
-        <p>This is like a scrapbook of dumb shit, holy seavey.</p>
         <p>In this house we stan Devon Lee Carlson. You will get a lot of her content lmao</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!--Countdown-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div id="countdown" align="right" style="font-family:Unus;font-size:60px;-webkit-text-stroke-color:none;"></div>
+          <script>
+var countDownDate = new Date("Nov 14, 2020 3:01:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  days = days < 10 ? "0" + days : days;
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  hours = hours < 10 ? "0" + hours : hours;
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+    
+  document.getElementById("countdown").innerHTML = days + ":" + hours + ":"
+  + minutes + ":" + seconds;
+    
+      if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "MEMENTO MORI";
+  }
+}, 1000);
+</script>
       </div>
     </body>
     </html>
