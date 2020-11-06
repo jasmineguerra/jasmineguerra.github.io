@@ -143,6 +143,24 @@ span {
       font-family: "Unus";
       src: url(webfonts/Poppins-SemiBold.ttf);
     }
+
+/* ultramarine */
+#ultra:link {
+  font-family: Kalam;
+  font-weight: 5px;
+  text-decoration: underline;
+  color: white;
+}
+#ultra:hover {
+  color: #101010;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#ultra:visited {
+  text-decoration: none;
+  color: white;
+}
+
 /* Lost in translation link*/
 #lit {
   font-family: Kalam;
@@ -335,6 +353,7 @@ video:-webkit-media-controls-fullscreen-button
 {
         display: none !important;
 }
+
 #Ehint:hover {
   cursor: default;
   text-decoration: underline;
