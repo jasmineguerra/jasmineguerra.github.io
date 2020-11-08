@@ -330,21 +330,15 @@ img.imgwdw:hover {
   font-family: Kalam;
   font-weight: 5px;
   text-decoration: none;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
   color: white;
 }
 #secretweb:hover {
   cursor: pointer;
   text-decoration: underline;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 #secretweb:visited {
   text-decoration: none;
   color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 video #devoneditthree {
   display: none;
