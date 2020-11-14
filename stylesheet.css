@@ -7,36 +7,6 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
-/* Countdown */
-.i_bottomright {
-  position: fixed;
-  font-family: Unus;
-  font-size: 100px;
-  bottom: 2px;
-  right: 16px;
-}
-.q_bottomright {
-  position: fixed;
-  font-family: Unus;
-  font-size: 80px;
-  bottom: 2px;
-  right: 200px;
-}
-.a_bottomright {
-  position: fixed;
-  font-family: Unus;
-  font-size: 70px;
-  bottom: 2px;
-  right: 16px;
-}
-.s_bottomright {
-  position: fixed;
-  font-family: Unus;
-  font-size: 60px;
-  bottom: 2px;
-  left: 16px;
-}
 @media screen and (max-height: 450px) {
   #countdown {padding-top: 10px;}
   #countdown div {font-size: 10px;}
