@@ -9,6 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
   </head>
 
+    <!--Countdown-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div style="font-family: Christmas" class="countdown_bottom" id="countdown">
+      <script>
+var countDownDate = new Date("December 25, 2020 00:00:01").getTime();
+var x = setInterval(function() {
+var now = new Date().getTime();
+var distance = countDownDate - now;
+
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("countdown").innerHTML = days + " days " + hours + " hours "
++ minutes + " minutes " + seconds + " seconds until Christmas Eve!";
+
+  if (distance < 0) {
+clearInterval(x);
+document.getElementById("countdown").innerHTML = "Merry Christmas!";
+}
+}, 1000);
+</script></div>
+
       <!--Off Canvas menu-->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -21,7 +45,7 @@
       </div>
 
       <div id="main">
-        <span style="font-size:30px;color:black;cursor:pointer;" onclick="openNav()">&#9776; Other Tabs</span>
+        <span style="font-size:30px;color:white;cursor:pointer;" onclick="openNav()">&#9776; Other Tabs</span>
         <script>
           function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
