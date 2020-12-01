@@ -22,8 +22,8 @@ p {
   margin-right: 80px;
 }
 h1 {
-  font-family: Snowy; 
-  font-size: 50px;
+  font-family: Bells; 
+  font-size: 80px;
   font-weight: 3;
   letter-spacing: 3px;
   color: white;
@@ -119,8 +119,8 @@ span {
   src: url(webfonts/The\ Perfect\ Christmas.ttf);
 }
 @font-face {
-  font-family: "Snowy";
-  src: url(webfonts/PWHappyChristmas.ttf);
+  font-family: "Bells";
+  src: url(webfonts/Christmas\ Bell\ -\ Personal\ Use.otf);
 }
 /* Lost in translation link*/
 #lit {
