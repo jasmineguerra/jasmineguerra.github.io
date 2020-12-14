@@ -339,22 +339,21 @@ video::-webkit-media-controls-fullscreen-button {
 /* Countdown CSS */
 .countdown_bottom {
   position: fixed;
+  margin: auto;
   font-family: Unus;
   font-size: 100px;
-  left: 14%;
   bottom: 20px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
 /* Goodreads Widget */
 #customize-list{
-  float: right;
   margin-left:20px;
   list-style:none;
 }
 #gr_updates_widget{
-float:right;
 border-radius: 5px;
 background-color:#fff;
 border:solid #683205 10px;
@@ -365,8 +364,8 @@ inset 0px 0px 0px 1px #7D730B;
 box-shadow: 0px 0px 4px 1px #595959,
 inset 0px 0px 0px 1px #7D730B;
 padding:15px 0 0px 15px;
-width:400px;
-height:365px;
+width:420px;
+height:550px;
 }
 #gr_footer{
 margin-bottom:0px;
@@ -379,5 +378,16 @@ font-size:14px;
 }
 #gr_footer img{
 width:100px;
-float:right;
+}
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 98px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden;
 }
