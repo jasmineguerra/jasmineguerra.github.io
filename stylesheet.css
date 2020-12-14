@@ -73,6 +73,14 @@ span {
   letter-spacing: 3px;
   color: white;
 }
+pre {
+  font-family: Kalam;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
 @font-face {
   font-family: "Minecraft";
@@ -289,7 +297,7 @@ img.imgwdw:hover {
   font-family: Kalam;
   font-weight: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 #secretweb:hover {
   cursor: pointer;
@@ -297,7 +305,7 @@ img.imgwdw:hover {
 }
 #secretweb:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 video #devoneditthree {
   display: none;
