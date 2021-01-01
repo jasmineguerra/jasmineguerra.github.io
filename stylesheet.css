@@ -1,6 +1,5 @@
 body {
-  background: rgb(149,10,10);
-  background: linear-gradient(90deg, rgba(149,10,10,1) 40%, rgba(8,88,9,1) 60%);
+  background: #c5ddeb;
 }
 html, body {
   width:  100%;
@@ -17,16 +16,16 @@ p {
   font-family: Kalam;
   font-size: 25px;
   letter-spacing: 1px;
-  color: white;
+  color: black;
   margin-left: 80px;
   margin-right: 80px;
 }
 h1 {
-  font-family: Bells; 
+  font-family: Milky Nice; 
   font-size: 80px;
   font-weight: 3;
   letter-spacing: 3px;
-  color: white;
+  color: black;
   font-weight: 2;
   margin-left: 80px;
   margin-right: 80px;
@@ -34,21 +33,21 @@ h1 {
 li {
   font-family: Kalam;
   font-size: 25px;
-  color: white;
+  color:black;
 }
 h2 {
-  font-family: Christmas; 
+  font-family: Twinkle Dream; 
   font-size: 50px;
   font-weight: 600;
   letter-spacing: 5px;
-  color: white;
+  color: black;
   margin-left: 80px;
   margin-right: 80px;
 }
 h3 {
   font-family: Crewmate;
   font-size: 30px;
-  color: white;
+  color: black;
   margin-left: 80px;
   margin-right: 80px;
   padding-top: 30px;
@@ -59,25 +58,25 @@ sub {
   font-size: 13px;
   margin-left: 80px;
   margin-right: 80px;
-  color: white;
+  color: black;
 }
 a {
   font-family: Shaeila;
   font-weight: 2;
   letter-spacing: 3px;
-  color: white;
+  color: black;
 }
 span {
   font-family: Shaeila;
   font-weight: 2;
   letter-spacing: 3px;
-  color: white;
+  color: black;
 }
 pre {
   font-family: Kalam;
   font-size: 25px;
   letter-spacing: 1px;
-  color: white;
+  color: black;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -130,7 +129,7 @@ pre {
   font-family: "Bells";
   src: url(webfonts/Christmas\ Bell\ -\ Personal\ Use.otf);
 }
-/* Lost in translation link*/
+/*Stargazing link*/
 #lit {
   font-family: Kalam;
   text-decoration: none;
@@ -220,7 +219,7 @@ img.imgwdw:hover {
   z-index: 1; /* Stay on top */
   top: 0;
   right: 0;
-  background-color: rgb(9, 53, 9);
+  background-color: #88a5b5;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -252,7 +251,7 @@ img.imgwdw:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(94, 9, 9);
+  background-color: #91b3c5;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -297,7 +296,7 @@ img.imgwdw:hover {
   font-family: Kalam;
   font-weight: 5px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 #secretweb:hover {
   cursor: pointer;
@@ -305,27 +304,12 @@ img.imgwdw:hover {
 }
 #secretweb:visited {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 video #devoneditthree {
   display: none;
 }
-#Ehint {
-  font-family: Kalam;
-  text-decoration: none;
-  color: black;
-}
-#Ehint:link {
-  font-family: Kalam;
-  font-weight: 5px;
-  text-decoration: none;
-  color: black;
-}
-#Ehint:hover {
-  cursor: default;
-  text-decoration: underline;
-  color: white;
-}
+
 video::-webkit-media-controls-fullscreen-button {
   display: none;
   }
@@ -390,4 +374,46 @@ width:100px;
   height: 160px;
   padding: 0px 0px;
   overflow: hidden;
+}
+
+/* Snow! */
+.editor-stage .snow {
+  height:50px;
+  background: #fff;
+}
+.snow{
+  position:fixed;
+  pointer-events:none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+  background: none;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+  z-index:100;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
