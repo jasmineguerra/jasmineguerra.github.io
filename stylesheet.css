@@ -1,5 +1,5 @@
 body {
-  background: #c5ddeb;
+  background: #eeb8e7;
 }
 html, body {
   width:  100%;
@@ -129,6 +129,7 @@ pre {
   font-family: "Bells";
   src: url(webfonts/Christmas\ Bell\ -\ Personal\ Use.otf);
 }
+
 /*Stargazing link*/
 #lit {
   font-family: Kalam;
@@ -208,7 +209,7 @@ img.imgwdw:hover {
   font-size: 18px;
 }
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgb(156, 154, 154);
 }
 
 /* The sidebar menu in Quotes Tab*/
@@ -219,7 +220,7 @@ img.imgwdw:hover {
   z-index: 1; /* Stay on top */
   top: 0;
   right: 0;
-  background-color: #88a5b5;
+  background-color: #f8e6f3;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -227,16 +228,13 @@ img.imgwdw:hover {
   padding: 10px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color: black;
   display: block;
 }
 .quotenav a:hover {
-  color: #575555;
+  color: #777474;
 }
-.main {
-  margin-right: 170px;
-  padding: 0px 10px;
-}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 10px;}
@@ -251,7 +249,7 @@ img.imgwdw:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #91b3c5;
+  background-color: #f3d1ea;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -261,16 +259,16 @@ img.imgwdw:hover {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color:white;
+  color:black;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #242222;
+  color: #8f8c8c;
 }
 .sidenav a.selected {
-  color: #454545;
+  color: #857a83;
 }
 
 .sidenav .closebtn {
@@ -320,18 +318,6 @@ video::-webkit-media-controls-fullscreen-button {
   cursor: pointer;
 }
 
-/* Countdown CSS */
-.countdown_bottom {
-  position: fixed;
-  margin: auto;
-  font-family: Unus;
-  font-size: 100px;
-  bottom: 20px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
 /* Goodreads Widget */
 #customize-list{
   margin-left:20px;
@@ -363,9 +349,7 @@ font-size:14px;
 #gr_footer img{
 width:100px;
 }
-.gr_grid_container {
-  /* customize grid container div here. eg: width: 500px; */
-}
+
 
 .gr_grid_book_container {
   /* customize book cover container div here */
@@ -374,46 +358,4 @@ width:100px;
   height: 160px;
   padding: 0px 0px;
   overflow: hidden;
-}
-
-/* Snow! */
-.editor-stage .snow {
-  height:50px;
-  background: #fff;
-}
-.snow{
-  position:fixed;
-  pointer-events:none;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  height:100vh;
-  background: none;
-  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
-  z-index:100;
-  -webkit-animation: snow 10s linear infinite;
-  -moz-animation: snow 10s linear infinite;
-  -ms-animation: snow 10s linear infinite;
-  animation: snow 10s linear infinite;
-}
-@keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
-@-moz-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
-}
-@-webkit-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
-@-ms-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
